@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Orbitron:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header-wrapper">
+      <a href="index.html">
+        <div class="image-wrapper">
+          <img src="images/i.png" alt="logo premier league" />
+        </div>
+      </a>
+      <nav>
+        <ul >
+          <li class="navigation">Ostatnie mecze</li>
+          <li class="navigation">Terminarz</li>
+          <li class="navigation">Oficjalna strona EPL</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section-1">
+      <div class="section-1-wrapper">
+        <h1 class="section-1-header">World's best football</h1>
+        <p class="section-1-p">
+          Follow us!</p>
+        <div>
+          <button class="section-1-btn version1">YouTube</button>
+          <button class="section-1-btn version2">Oficial Site</button>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-2-gallery">
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./images/conte.jpg" alt="Piła 1"/>
+        </div>
+        <h3>Antonio Conte</h3>
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./images/lakaka.jpg" alt="Piła 1"/>
+        </div>
+        <h3>Romelu Lukaku</h3>
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./images/bruno.jpg" alt="Piła 1"/>
+        </div>
+        <h3>Bruno Fernandes</h3>
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./images/kdb.jpg" alt="Piła 1"/>
+        </div>
+        <h3>Kevin De Bruyne</h3>
+      </div>
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./images/havertz.jpg" alt="Piła 1"/>
+        </div>
+        <h3>Kai Havertz</h3>
+      </div>
+
+
+    </section>
+
+
+
+
+    <section class="section-3-form">
+      <div class="wrapper">
+     <div class="wrapper-inputs">
+      <div class="wrapper-input">
+            <label for="id-name">Wpisz imię:</label>
+            <input
+              type="text"
+              placeholder="Imię"
+              id="id-name"
+              name="firstName"
+              value="" />
+      </div>
+      <div class="wrapper-input">
+            <label for="id-lastName">Wpisz nazwisko:</label>
+            <input
+              type="text"
+              placeholder="Nazwisko:"
+              id="id-lastName"
+              name="lastName"
+              value="" />
+      </div>
+     </div>
+    <div class="wrapper-inputs">
+        <div class="wrapper-input">
+          <label for="id-email">Wpisz email:</label>
+          <input
+            type="text"
+            placeholder="Email"
+            id="id-email"
+            name="email"
+            value="" />
+        </div>
+        <div class="wrapper-input">
+          <label for="id-password">Wpisz hasło:</label>
+          <input
+            type="password"
+            placeholder="Hasło:"
+            id="id-password"
+            name="password"
+            value="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="wrapper-inputs">
+        <div class="wrapper-input">
+          <label for="id-wyspa">Europe</label>
+          <input
+            type="checkbox"
+            id="id-euro"
+            name="miejsce"
+            value="Wyspa" />
+        </div>
+        <div class="wrapper-input">
+          <label for="id-vivo">North America</label>
+          <input
+            type="checkbox"
+            id="id-vivo"
+            name="miejsce"
+            value="Vivo" />
+        </div>
+        <div class="wrapper-input">
+          <label for="id-plotki">South America</label>
+          <input
+            type="checkbox"
+            id="id-plotki"
+            name="miejsce"
+            value="Płotki" />
+        </div>
+
+
+      </div>
+    </div>
+      <div class="wrapper-inputs">
+        <div class="wrapper-input">
+          <label for="id-wiek1">do 15lat:</label>
+          <input
+            type="radio"
+            id="id-wiek1"
+            name="wiek"
+            value="do 15lat" />
+        </div>
+        <div class="wrapper-input">
+          <label for="id-wiek2">15-20lat</label>
+          <input
+            type="radio"
+            id="id-wiek2"
+            name="wiek"
+            value="15-20lat" />
+        </div>
+        <div class="wrapper-input">
+          <label for="id-wiek3">powyżej 20lat</label>
+          <input
+            type="radio"
+            id="id-wiek3"
+            name="wiek"
+            value="Powyżej 20lat" />
+        </div>
+      </div>
+      <div class="wrapper">
+      <div class="wrapper-select">
+        <label for="school">Wybierz piłkarza roku EPL</label>
+        <select name="school" id="id-school">
+          <option value="brak">Wybierz piłkarza</option>
+          <option value="Ekonom">Harry Kane</option>
+          <option value="Mechanik">Kai Havertz</option>
+          <option value="Nafta">Kevin De Bruyne</option>
+          <option value="Budowlanka">Michail Antonio</option>
+          <option value="Gary">David De Gea</option>
+        </select>
+      </div>
+
+
+      <div class="wrapper-textarea">
+        <label for="id-comments">Wpisz komentarz</label>
+        <textarea rows="10" cols="80" placeholder="wpisz komentarz" id="id-comments" name="comments"></textarea>
+      </div>
+    </div>
+    </div>
+    <div class="wrapper-btn">
+      <button class="ver1" id="btnWyslij">wyślij</button>
+
+      <button class="ver2" type="reset" id="btnReset" >wyczyść formularz</button>
+    </div>
+
+    </section>
+    <footer>
+      <h2>&copy; 2022 - klasa 4g grupa 1</h2>
+    </footer>
+    <div id="id-info">
+
+    </div>
+  </main>
+
+  <script src="./skrypt.js"></script>
+</body>
+</html>
